@@ -1,14 +1,13 @@
 <?php
 
-namespace FactoryMethod\Test;
+namespace Test\FactoryMethod;
 
-use FactoryMethod\App\CriadoresConcretos\Shelf;
-use FactoryMethod\App\Client;
-use FactoryMethod\App\CriadoresConcretos\Digital;
-use FactoryMethod\App\CriadoresConcretos\Shelf as CriadoresConcretosShelf;
+use App\FactoryMethod\CriadoresConcretos\Shelf;
+use App\FactoryMethod\Client;
+use App\FactoryMethod\CriadoresConcretos\Digital;
 use PHPUnit\Framework\TestCase;
 
-class ClientTest extends TestCase
+class FactoryMethodTest extends TestCase
 {
     public function testDigital()
     {   

@@ -1,8 +1,8 @@
 <?php
 
-namespace FactoryMethod\App\ProdutosConcretos;
+namespace App\FactoryMethod\ProdutosConcretos;
 
-use FactoryMethod\App\MediaInterface;
+use App\FactoryMethod\MediaInterface;
 
 class Digital implements MediaInterface
 {

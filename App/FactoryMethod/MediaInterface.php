@@ -1,6 +1,6 @@
 <?php
 
-namespace FactoryMethod\App;
+namespace App\FactoryMethod;
 
 Interface MediaInterface
 {

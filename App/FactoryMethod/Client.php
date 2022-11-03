@@ -1,8 +1,8 @@
 <?php
 
-namespace FactoryMethod\App;
+namespace App\FactoryMethod;
 
-use FactoryMethod\App\Library;
+use App\FactoryMethod\Library;
 
 class Client
 {
