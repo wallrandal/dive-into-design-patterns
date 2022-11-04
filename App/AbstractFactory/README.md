@@ -12,4 +12,4 @@ Imagine que a loja Sephora crie kits de maquiagem específicos para o inverno e 
 
 
 Diagrama:
-![diagrama do abstract factory](/Fixtures/img/abstractfactory.png "Diagrama do Abstract Factory")
+![diagrama do abstract factory](/Fixtures/img/abstract.png "Diagrama do Abstract Factory")
