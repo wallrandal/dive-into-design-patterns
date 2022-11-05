@@ -1,6 +1,6 @@
 <?php
 
-namespace Test\FactoryMethod;
+namespace Test;
 
 use App\FactoryMethod\CriadoresConcretos\Shelf;
 use App\FactoryMethod\Client;
