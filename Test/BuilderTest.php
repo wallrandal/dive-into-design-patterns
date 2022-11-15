@@ -14,5 +14,6 @@ class BuilderTest extends TestCase
         $diretor = new Diretor($bonecaEscolhida);
         $result = $diretor->construirBoneca();
         $this->assertInstanceOf(BonecaDeTrabalho::class, $result);
+        $this->assertEquals($result->getDoll(), 'boneca de trabalho de terno roxo');
     }
 }

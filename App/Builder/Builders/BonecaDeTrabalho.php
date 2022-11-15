@@ -25,4 +25,9 @@ class BonecaDeTrabalho implements Builder
     {
         $this->doll->setAccessories('possui notebook e pasta de documentos');
     }
+
+    public function getDoll()
+    {
+        return $this->doll->getDoll();
+    }
 }
