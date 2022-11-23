@@ -2,13 +2,13 @@
 
 namespace Test;
 
-use App\AbstractFactory\FabricasConcretas\KitDeVerao;
-use App\AbstractFactory\Client;
-use App\AbstractFactory\FabricasConcretas\KitDeInverno;
-use App\AbstractFactory\ProdutosConcretos\BatomDeInverno;
-use App\AbstractFactory\ProdutosConcretos\BatomDeVerao;
-use App\AbstractFactory\ProdutosConcretos\PaletaDeInverno;
-use App\AbstractFactory\ProdutosConcretos\PaletaDeVerao;
+use DesignPatterns\AbstractFactory\FabricasConcretas\KitDeVerao;
+use DesignPatterns\AbstractFactory\Client;
+use DesignPatterns\AbstractFactory\FabricasConcretas\KitDeInverno;
+use DesignPatterns\AbstractFactory\ProdutosConcretos\BatomDeInverno;
+use DesignPatterns\AbstractFactory\ProdutosConcretos\BatomDeVerao;
+use DesignPatterns\AbstractFactory\ProdutosConcretos\PaletaDeInverno;
+use DesignPatterns\AbstractFactory\ProdutosConcretos\PaletaDeVerao;
 use PHPUnit\Framework\TestCase;
 
 class AbstractFactoryTest extends TestCase

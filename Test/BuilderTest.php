@@ -2,8 +2,8 @@
 
 namespace Test;
 
-use App\Builder\Diretor;
-use App\Builder\Builders\BonecaDeTrabalho;
+use DesignPatterns\Builder\Diretor;
+use DesignPatterns\Builder\Builders\BonecaDeTrabalho;
 use PHPUnit\Framework\TestCase;
 
 class BuilderTest extends TestCase

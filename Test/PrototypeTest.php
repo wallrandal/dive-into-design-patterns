@@ -2,8 +2,8 @@
 
 namespace Test;
 
-use App\Prototype\Author;
-use App\Prototype\Page;
+use DesignPatterns\Prototype\Author;
+use DesignPatterns\Prototype\Page;
 use PHPUnit\Framework\TestCase;
 
 class PrototypeTest extends TestCase

@@ -19,11 +19,8 @@ class ComposerStaticInit62b9a3e4100bc5c5e6e9b34d5a46968a
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
+            'DesignPatterns\\' => 15,
             'DeepCopy\\' => 9,
-        ),
-        'A' => 
-        array (
-            'App\\' => 4,
         ),
     );
 
@@ -36,13 +33,13 @@ class ComposerStaticInit62b9a3e4100bc5c5e6e9b34d5a46968a
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
+        'DesignPatterns\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/DesignPatterns',
+        ),
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
-        ),
-        'App\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/App',
         ),
     );
 

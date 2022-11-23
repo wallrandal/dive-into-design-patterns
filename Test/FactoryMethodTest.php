@@ -2,9 +2,9 @@
 
 namespace Test;
 
-use App\FactoryMethod\CriadoresConcretos\Shelf;
-use App\FactoryMethod\Client;
-use App\FactoryMethod\CriadoresConcretos\Digital;
+use DesignPatterns\FactoryMethod\CriadoresConcretos\Shelf;
+use DesignPatterns\FactoryMethod\Client;
+use DesignPatterns\FactoryMethod\CriadoresConcretos\Digital;
 use PHPUnit\Framework\TestCase;
 
 class FactoryMethodTest extends TestCase

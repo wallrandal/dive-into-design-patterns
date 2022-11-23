@@ -2,7 +2,7 @@
 
 namespace Test;
 
-use App\Singleton\LogService;
+use DesignPatterns\Singleton\LogService;
 use PHPUnit\Framework\TestCase;
 
 class SingletonTest extends TestCase
